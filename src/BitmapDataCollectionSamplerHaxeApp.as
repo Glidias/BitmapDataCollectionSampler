@@ -214,10 +214,9 @@ public class BitmapDataCollectionSamplerHaxeApp extends Sprite {
 
         previewDisplay = new Bitmap();
 		previewDisplay.rotation = 90;
-	
+		previewDisplay.x = gridPreview.getBitmapData().height;
         addChild(previewDisplay);
-		previewDisplay.x += stage.stageWidth;
-		//previewDisplay.x += previewDisplay.getBounds(previewDisplay.parent).left;
+		
     }
 
     /**
