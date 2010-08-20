@@ -1,1 +1,1 @@
-This is an old archive.
+This is an old fork. http://github.com/Glidias/BitmapScroller for the latest fork.
